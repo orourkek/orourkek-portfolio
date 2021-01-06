@@ -46,6 +46,13 @@
   font-weight: 600;
 }
 
+.links {
+  list-style: none;
+}
+
+.links li {
+}
+
 .foo {
   padding: 200vh 0;
 }
