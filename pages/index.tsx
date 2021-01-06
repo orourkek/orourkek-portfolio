@@ -1,7 +1,7 @@
 import Head from 'next/head';
 import Image from 'next/image';
 import { Icon } from '../components/icon';
-import styles from '../styles/Home.module.css';
+import styles from '../styles/Home.module.scss';
 
 const GFONT_FAMILY = 'Montserrat:ital,wght@0,300;0,400;0,600;1,300;1,400;1,600';
 
