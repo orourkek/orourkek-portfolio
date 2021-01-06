@@ -1,8 +1,6 @@
 import { SvgIcon, Props as SvgIconProps } from './svg-icon';
 import styles from './icon.module.scss';
 
-console.log(styles);
-
 const ICONS = {
   dribbble: (
     <path
@@ -39,16 +37,16 @@ const ICONS = {
         ry="40"
         fill="none"
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
-        stroke-width="32"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth="32"
       />
       <path
         fill="none"
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
-        stroke-width="32"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth="32"
         d="M112 160l144 112 144-112"
       />
     </>
