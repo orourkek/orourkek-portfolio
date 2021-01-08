@@ -48,9 +48,35 @@
 
 .links {
   list-style: none;
-}
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
 
-.links li {
+  li + li {
+    margin-left: 2rem;
+  }
+
+  a {
+    display: inline-block;
+    padding: 0.5rem;
+
+    &[href*='github.com']:hover {
+      color: #333;
+    }
+
+    &[href*='linkedin.com']:hover {
+      color: #0077b5;
+    }
+
+    &[href*='gmail.com']:hover {
+      color: #ea4335;
+    }
+
+    &[href*='dribbble.com']:hover {
+      color: #ea4c89;
+    }
+  }
 }
 
 .foo {

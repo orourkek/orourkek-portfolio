@@ -26,10 +26,14 @@ export default function Home() {
             <h1>Kevin O'Rourke</h1>
             <ul className={styles.links}>
               <li>
-                <Icon icon="email" width={64} />
-                <Icon icon="github" width={64} />
-                <Icon icon="linkedin" width={64} />
-                <Icon icon="dribbble" width={64} />
+                <a href="https://github.com/orourkek">
+                  <Icon icon="github" width={64} />
+                </a>
+              </li>
+              <li>
+                <a href="https://www.linkedin.com/in/kevinjorourke">
+                  <Icon icon="linkedin" width={64} />
+                </a>
               </li>
             </ul>
           </header>
