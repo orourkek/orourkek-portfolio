@@ -38,8 +38,6 @@ export default function Home() {
             </ul>
           </header>
         </section>
-
-        <section className={styles.foo}>Hello</section>
       </main>
     </>
   );
