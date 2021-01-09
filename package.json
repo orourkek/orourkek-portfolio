@@ -4,9 +4,9 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
-    "format": "prettier --write .",
+    "build": "next build && next export -o out",
     "export": "next export -o out",
+    "format": "prettier --write .",
     "start": "next start"
   },
   "husky": {
