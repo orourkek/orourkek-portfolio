@@ -1,5 +1,4 @@
 import Head from 'next/head';
-import Image from 'next/image';
 import { Icon } from '../components/icon';
 import styles from '../styles/Home.module.scss';
 
@@ -20,7 +19,7 @@ export default function Home() {
 
       <main className={styles.main}>
         <section className={styles.hero}>
-          <Image src="/bridge.jpg" layout="fill" objectFit="cover" />
+          <img src="/bridge.jpg" className={styles.heroImage} />
           <div className={styles.bgOverlay} />
           <header>
             <h1>Kevin O'Rourke</h1>

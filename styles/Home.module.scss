@@ -46,6 +46,15 @@
   font-weight: 600;
 }
 
+.heroImage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
 .links {
   list-style: none;
   display: flex;
