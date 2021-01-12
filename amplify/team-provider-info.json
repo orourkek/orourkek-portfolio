@@ -1,0 +1,23 @@
+{
+  "live": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-orourkekportfolio-live-160117-authRole",
+      "UnauthRoleArn": "arn:aws:iam::631456866132:role/amplify-orourkekportfolio-live-160117-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::631456866132:role/amplify-orourkekportfolio-live-160117-authRole",
+      "Region": "us-west-2",
+      "DeploymentBucketName": "amplify-orourkekportfolio-live-160117-deployment",
+      "UnauthRoleName": "amplify-orourkekportfolio-live-160117-unauthRole",
+      "StackName": "amplify-orourkekportfolio-live-160117",
+      "StackId": "arn:aws:cloudformation:us-west-2:631456866132:stack/amplify-orourkekportfolio-live-160117/463031a0-6745-11eb-8148-0a1e0a67c5bb",
+      "AmplifyAppId": "do72abvhwye4r"
+    },
+    "categories": {
+      "hosting": {
+        "amplifyhosting": {
+          "appId": "do72abvhwye4r",
+          "type": "manual"
+        }
+      }
+    }
+  }
+}
