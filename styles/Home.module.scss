@@ -82,6 +82,10 @@
       color: #ea4335;
     }
 
+    &[href*='itch.io']:hover {
+      color: #fa5c5c;
+    }
+
     &[href*='dribbble.com']:hover {
       color: #ea4c89;
     }

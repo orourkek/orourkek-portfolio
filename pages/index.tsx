@@ -30,6 +30,11 @@ export default function Home() {
                 </a>
               </li>
               <li>
+                <a href="https://orourkek.itch.io/">
+                  <Icon icon="itchIo" width={64} />
+                </a>
+              </li>
+              <li>
                 <a href="https://www.linkedin.com/in/kevinjorourke">
                   <Icon icon="linkedin" width={64} />
                 </a>
